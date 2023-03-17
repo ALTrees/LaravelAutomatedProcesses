@@ -2,9 +2,9 @@
 
 namespace ALTrees\LaravelAutomatedProcesses;
 
+use ALTrees\LaravelAutomatedProcesses\Commands\LaravelAutomatedProcessesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ALTrees\LaravelAutomatedProcesses\Commands\LaravelAutomatedProcessesCommand;
 
 class LaravelAutomatedProcessesServiceProvider extends PackageServiceProvider
 {
