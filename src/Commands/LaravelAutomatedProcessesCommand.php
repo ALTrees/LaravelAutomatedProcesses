@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ALTrees\LaravelAutomatedProcesses\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelAutomatedProcessesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravelautomatedprocesses';
 
     public $description = 'My command';
 
