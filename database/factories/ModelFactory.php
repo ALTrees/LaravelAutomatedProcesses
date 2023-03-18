@@ -1,6 +1,6 @@
 <?php
 
-namespace ALTrees\LaravelAutomatedProcesses\Database\Factories;
+namespace ALTrees\AutomatedProcesses\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

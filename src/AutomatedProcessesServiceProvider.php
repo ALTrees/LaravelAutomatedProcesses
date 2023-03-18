@@ -1,12 +1,12 @@
 <?php
 
-namespace ALTrees\LaravelAutomatedProcesses;
+namespace ALTrees\AutomatedProcesses;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ALTrees\LaravelAutomatedProcesses\Commands\LaravelAutomatedProcessesCommand;
+use ALTrees\AutomatedProcesses\Commands\AutomatedProcessesCommand;
 
-class LaravelAutomatedProcessesServiceProvider extends PackageServiceProvider
+class AutomatedProcessesServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class LaravelAutomatedProcessesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravelautomatedprocesses')
+            ->name('AutomatedProcesses')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_laravelautomatedprocesses_table')
-            ->hasCommand(LaravelAutomatedProcessesCommand::class);
+            ->hasMigration('create_AutomatedProcesses_table')
+            ->hasCommand(AutomatedProcessesCommand::class);
     }
 }

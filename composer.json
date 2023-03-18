@@ -1,12 +1,12 @@
 {
-    "name": "altrees/laravelautomatedprocesses",
+    "name": "altrees/automatedprocesses",
     "description": "A package to allow the creation of automated processes",
     "keywords": [
         "ALTrees",
         "laravel",
-        "laravelautomatedprocesses"
+        "automatedprocesses"
     ],
-    "homepage": "https://github.com/altrees/laravelautomatedprocesses",
+    "homepage": "https://github.com/altrees/automatedprocesses",
     "license": "MIT",
     "authors": [
         {
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ALTrees\\LaravelAutomatedProcesses\\": "src",
-            "ALTrees\\LaravelAutomatedProcesses\\Database\\Factories\\": "database/factories"
+            "ALTrees\\AutomatedProcesses\\": "src",
+            "ALTrees\\AutomatedProcesses\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ALTrees\\LaravelAutomatedProcesses\\Tests\\": "tests"
+            "ALTrees\\AutomatedProcesses\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -60,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ALTrees\\LaravelAutomatedProcesses\\LaravelAutomatedProcessesServiceProvider"
+                "ALTrees\\AutomatedProcesses\\AutomatedProcessesServiceProvider"
             ],
             "aliases": {
-                "LaravelAutomatedProcesses": "ALTrees\\LaravelAutomatedProcesses\\Facades\\LaravelAutomatedProcesses"
+                "AutomatedProcesses": "ALTrees\\AutomatedProcesses\\Facades\\AutomatedProcesses"
             }
         }
     },

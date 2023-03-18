@@ -1,12 +1,12 @@
 <?php
 
-namespace ALTrees\LaravelAutomatedProcesses\Commands;
+namespace ALTrees\AutomatedProcesses\Commands;
 
 use Illuminate\Console\Command;
 
-class LaravelAutomatedProcessesCommand extends Command
+class AutomatedProcessesCommand extends Command
 {
-    public $signature = 'laravelautomatedprocesses';
+    public $signature = 'AutomatedProcesses';
 
     public $description = 'My command';
 

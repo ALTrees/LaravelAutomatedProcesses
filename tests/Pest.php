@@ -1,5 +1,5 @@
 <?php
 
-use ALTrees\LaravelAutomatedProcesses\Tests\TestCase;
+use ALTrees\AutomatedProcesses\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
