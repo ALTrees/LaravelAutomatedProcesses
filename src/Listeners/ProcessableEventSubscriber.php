@@ -1,6 +1,6 @@
 <?php
 
-namespace ALTrees\AutomatedProcesses\Listeners;
+namespace ALTrees\Talos\Listeners;
 
 use Illuminate\Events\Dispatcher;
 

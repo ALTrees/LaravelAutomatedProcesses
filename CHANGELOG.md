@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `AutomatedProcesses` will be documented in this file.
+All notable changes to `Talos` will be documented in this file.

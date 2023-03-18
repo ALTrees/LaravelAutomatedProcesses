@@ -1,12 +1,12 @@
 {
-    "name": "altrees/automatedprocesses",
+    "name": "altrees/talos",
     "description": "A package to allow the creation of automated processes",
     "keywords": [
         "ALTrees",
         "laravel",
-        "automatedprocesses"
+        "talos"
     ],
-    "homepage": "https://github.com/altrees/automatedprocesses",
+    "homepage": "https://github.com/altrees/talos",
     "license": "MIT",
     "authors": [
         {
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ALTrees\\AutomatedProcesses\\": "src",
-            "ALTrees\\AutomatedProcesses\\Database\\Factories\\": "database/factories"
+            "ALTrees\\Talos\\": "src",
+            "ALTrees\\Talos\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ALTrees\\AutomatedProcesses\\Tests\\": "tests"
+            "ALTrees\\Talos\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -60,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ALTrees\\AutomatedProcesses\\AutomatedProcessesServiceProvider"
+                "ALTrees\\Talos\\TalosServiceProvider"
             ],
             "aliases": {
-                "AutomatedProcesses": "ALTrees\\AutomatedProcesses\\Facades\\AutomatedProcesses"
+                "Talos": "ALTrees\\Talos\\Facades\\Talos"
             }
         }
     },

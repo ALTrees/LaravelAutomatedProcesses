@@ -1,6 +1,6 @@
 <?php
 
-namespace ALTrees\AutomatedProcesses\Database\Factories;
+namespace ALTrees\Talos\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

@@ -1,15 +1,15 @@
 # A package to allow the creation of automated processes
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/altrees/automatedprocesses.svg?style=flat-square)](https://packagist.org/packages/altrees/automatedprocesses)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/altrees/automatedprocesses/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/altrees/automatedprocesses/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/altrees/automatedprocesses/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/altrees/automatedprocesses/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/altrees/automatedprocesses.svg?style=flat-square)](https://packagist.org/packages/altrees/automatedprocesses)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/altrees/talos.svg?style=flat-square)](https://packagist.org/packages/altrees/talos)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/altrees/talos/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/altrees/talos/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/altrees/talos/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/altrees/talos/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/altrees/talos.svg?style=flat-square)](https://packagist.org/packages/altrees/talos)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/AutomatedProcesses.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/AutomatedProcesses)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/Talos.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/Talos)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -20,20 +20,20 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require altrees/automatedprocesses
+composer require altrees/talos
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="automatedprocesses-migrations"
+php artisan vendor:publish --tag="talos-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="automatedprocesses-config"
+php artisan vendor:publish --tag="talos-config"
 ```
 
 This is the contents of the published config file:
@@ -46,14 +46,14 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="automatedprocesses-views"
+php artisan vendor:publish --tag="talos-views"
 ```
 
 ## Usage
 
 ```php
-$automatedProcesses = new ALTrees\AutomatedProcesses();
-echo $automatedProcesses->echoPhrase('Hello, ALTrees!');
+$talos = new ALTrees\Talos();
+echo $talos->echoPhrase('Hello, ALTrees!');
 ```
 
 ## Testing

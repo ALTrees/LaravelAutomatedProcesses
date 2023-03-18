@@ -1,12 +1,12 @@
 <?php
 
-namespace ALTrees\AutomatedProcesses\Commands;
+namespace ALTrees\Talos\Commands;
 
 use Illuminate\Console\Command;
 
-class AutomatedProcessesCommand extends Command
+class TalosCommand extends Command
 {
-    public $signature = 'AutomatedProcesses';
+    public $signature = 'Talos';
 
     public $description = 'My command';
 

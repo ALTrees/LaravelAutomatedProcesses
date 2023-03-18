@@ -1,5 +1,5 @@
 <?php
 
-use ALTrees\AutomatedProcesses\Tests\TestCase;
+use ALTrees\Talos\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
