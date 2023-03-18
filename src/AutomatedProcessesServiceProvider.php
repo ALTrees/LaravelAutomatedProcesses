@@ -17,7 +17,7 @@ class AutomatedProcessesServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('AutomatedProcesses')
-            ->hasConfigFile()
+            ->hasConfigFile('automated_processes')
             ->hasViews()
             ->hasMigration('create_AutomatedProcesses_table')
             ->hasCommand(AutomatedProcessesCommand::class);
