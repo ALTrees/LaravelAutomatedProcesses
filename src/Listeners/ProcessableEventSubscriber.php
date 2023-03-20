@@ -6,14 +6,10 @@ use Illuminate\Events\Dispatcher;
 
 class ProcessableEventSubscriber
 {
-     /**
-      * Register the listeners for the subscriber.
-      *
-      * @param Dispatcher $events
-      * @return void
-      */
+    /**
+     * Register the listeners for the subscriber.
+     */
     public function subscribe(Dispatcher $events): void
     {
-
     }
 }
