@@ -6,12 +6,18 @@ use Illuminate\Events\Dispatcher;
 
 class ProcessableEventSubscriber
 {
-     /**
-      * Register the listeners for the subscriber.
-      *
-      * @param Dispatcher $events
-      * @return void
-      */
+
+    public function handle(string $event) : void
+    {
+
+    }
+
+    /**
+     * Register the listeners for the subscriber.
+    *
+    * @param Dispatcher $events
+    * @return void
+    */
     public function subscribe(Dispatcher $events): void
     {
 
