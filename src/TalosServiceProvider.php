@@ -2,14 +2,13 @@
 
 namespace ALTrees\Talos;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use ALTrees\Talos\Commands\TalosCommand;
 use ALTrees\Talos\Listeners\ProcessableEventSubscriber;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class TalosServiceProvider extends PackageServiceProvider
 {
-
     public function boot()
     {
         parent::boot();

@@ -2,10 +2,9 @@
 
 namespace ALTrees\Talos\Tests;
 
-use ALTrees\LaravelAutomatedProcesses\LaravelAutomatedProcessesServiceProvider;
+use ALTrees\Talos\TalosServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ALTrees\Talos\TalosServiceProvider;
 
 class TestCase extends Orchestra
 {
