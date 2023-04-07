@@ -7,6 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TalosProcess extends Model
 {
-  use HasFactory;
-
+    use HasFactory;
 }

@@ -10,9 +10,8 @@ class TalosProcessItem extends Model
 {
     use HasFactory;
 
-    public function process() : BelongsTo
+    public function process(): BelongsTo
     {
         return $this->belongsTo(config('talos.process_model'));
     }
-
 }
