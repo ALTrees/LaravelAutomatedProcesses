@@ -1,22 +1,8 @@
 <?php
 
-namespace ALTrees\Talos\Listeners;
+namespace ALTrees\Talos\Listeners\Contracts;
 
 interface Processable
 {
-
-    /**
-     * The available filters for this processable
-     *
-     * @return array
-     */
-    public static function getProcessableFilters() : array;
-
-    /**
-     * The available actions for this processable
-     *
-     * @return array
-     */
-    public static function getProcessableActions() : array;
 
 }
