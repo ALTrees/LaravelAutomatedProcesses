@@ -3,7 +3,6 @@
 namespace ALTrees\Talos\Tests\Events;
 
 use ALTrees\Talos\Listeners\Contracts\Processable;
-use App\Models\Order;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
@@ -15,6 +14,7 @@ class TestProcessableEvent implements Processable
     /**
      * Create a new event instance.
      */
-    public function __construct() {}
-
+    public function __construct()
+    {
+    }
 }
